@@ -292,8 +292,22 @@ body
     }
 }
 
-.join-btn 
-{
+
+.join-btn {
     margin-top: 10px;
     width: 100%;
+    background-color: #2eb660; 
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+}
+
+.join-btn:hover {
+
+
+    background-color: #46f084; 
+}
+
+.text-info {
+    color: #25944e!important;
 }
