@@ -63,37 +63,41 @@ body
     outline: none !important;
 }
 
+#about,#schedule,#speaker,#activity,#gallery,#faq,#register,#contact,#sponsors
+{
+    padding: 30px 0;
+}
+
+.about,.schedule,.speaker,.activity.gallery,.faq,#register,.contact,.sponsors
+{
+    padding: 20px;
+}
+
+.title-schedule,.title-speaker,.title-register,.title-activity,.title-gallery,.title-faq,.title-contact
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
 /*-------------------home---------------------*/
 #home
 {
     background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(63, 63, 63));
     color: white;
     padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .promo-title
 {
     font-size: 40px;
     font-weight: 600;
-    margin-top: 100px;
-}
-
-.img-fluid
-{
-    margin: 30px;
+    margin-top: 50px;
 }
 
 /*---------------------About the Open House----------------------------*/
-#about
-{
-    padding: 30px 0;
-}
-
-.about
-{
-    padding: 20px;
-}
-
 .about h4
 {
     margin-top: 10px;
@@ -107,7 +111,6 @@ body
     height: auto; 
     margin-top: 10px;
 }
-
 
 .title
 {
@@ -123,6 +126,8 @@ body
     height: 5px;
     width: 430px;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
     transform: translateY(55px);
 }
 
@@ -136,23 +141,6 @@ body
 }
 
 /*---------------------Schedule----------------------------*/
-#schedule
-{
-    padding: 30px 0;
-}
-
-.schedule
-{
-    padding: 20px;
-}
-
-.title-schedule
-{
-    font-size: 40px;
-    font-weight: 600;
-    margin-top: 50px;
-    margin-bottom: 40px;
-}
 
 .title-schedule::before
 {
@@ -161,28 +149,12 @@ body
     height: 5px;
     width: 170px;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
     transform: translateY(55px);
 }
 
 /*---------------------speaker----------------------------*/
-#speaker
-{
-    padding: 30px 0;
-}
-
-.speaker
-{
-    padding: 20px;
-}
-
-.title-speaker
-{
-    font-size: 40px;
-    font-weight: 600;
-    margin-top: 50px;
-    margin-bottom: 40px;
-}
-
 .title-speaker::before
 {
     content: '';
@@ -190,36 +162,33 @@ body
     height: 5px;
     width: 150px;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
     transform: translateY(55px);
 }
 
-/*---------------------speaker----------------------------*/
+/*---------------------Register----------------------------*/
 
-
-
-/*---------------------contact-us----------------------------*/
-#contact-us
+#register
 {
     background: rgb(238, 238, 238);
-    padding-bottom: 50px;
-    padding-top: 50px;
 }
 
-.title-Contact
+/*---------------------contact-us----------------------------*/
+#contact
 {
-    font-size: 40px;
-    font-weight: 600;
-    margin-top: 50px;
-    margin-bottom: 40px;
+    background: rgb(238, 238, 238);
 }
 
-.title-Contact::before
+.title-contact::before
 {
     content: '';
     background: rgb(0, 0, 0);
     height: 5px;
     width: 210px;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
     transform: translateY(55px);
 }
 
@@ -230,10 +199,27 @@ body
     margin-top: 8%;
 }
 
-.contact-media
+/*---------------------Sponsors----------------------------*/
+
+.title-sponsors
 {
-    padding-top: 40px;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
 }
+
+.title-sponsors::before
+{
+    content: '';
+    background: rgb(0, 0, 0);
+    height: 5px;
+    width: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(55px);
+}
+
 
 .header 
 {
