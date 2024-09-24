@@ -7,6 +7,7 @@
 body
 {
     font-family: sans-serif;
+    background-color: #ffffff;
 }
 
 #nav-bar
@@ -18,8 +19,14 @@ body
 
 .navbar 
 {
+    background-color: #f8f9fa !important;
     background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(63, 63, 63));
     padding: 0 !important;
+}
+
+.navbar-brand 
+{
+    font-weight: bold;
 }
 
 .navbar-brand img
@@ -27,6 +34,11 @@ body
     height: 40px;
     padding-left: 20px;
 }
+
+.nav-link 
+    {
+      color: #000 !important;
+    }
 
 .navbar-nav li
 {
@@ -224,3 +236,65 @@ body
     padding-top: 40px;
 }
 
+.header 
+{
+    background-color: #23b95b; /* พื้นหลังสีเขียว */
+    color: #fff; /* ตัวอักษรสีขาว */
+    text-align: center; /* จัดข้อความให้อยู่กึ่งกลาง */
+    padding: 50px 20px; 
+}
+
+.header h1 
+{
+    font-size: 2.5rem; 
+    margin-bottom: 10px; 
+}
+  
+.header p 
+{
+    font-size: 1.2rem;
+}
+
+.workshop-card 
+{
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.workshop-card h5 
+{
+    font-weight: bold;
+}
+
+.certificate-badge
+{
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    white-space: nowrap; /* ป้องกันการตัดบรรทัด */
+    margin-top: 5px; /* เพิ่มระยะห่างจากส่วนบน */
+}
+
+@media (max-width: 576px) 
+{
+    .workshop-card .d-flex 
+    {
+      flex-direction: column; /* จัดแนวให้เป็นแนวตั้งในหน้าจอเล็ก */
+      align-items: flex-start; /* จัดชิดซ้าย */
+    }
+
+    .certificate-badge 
+    {
+      margin-top: 10px; /* เพิ่มระยะห่างจากด้านบน */
+    }
+}
+
+.join-btn 
+{
+    margin-top: 10px;
+    width: 100%;
+}
