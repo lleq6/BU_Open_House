@@ -297,3 +297,90 @@ body
 .text-info {
     color: #25944e!important;
 }
+
+.contact-section {
+    margin: 50px auto; /* จัดกลางด้วยการใช้ auto */
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 1300px; /* กำหนดความกว้างสูงสุด */
+}
+
+.contact-info {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: left;
+}
+
+
+.contact-info h4 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.contact-info i {
+    margin-right: 10px;
+}
+
+.contact-info a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    color: #dddddd;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin-right: 15px;
+}
+
+.social-icons i {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.social-icons a:hover i {
+    color: #dddddd;
+}
+
+.form-control {
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.btn-send {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    margin-top: 20px; 
+}
+
+.btn-send:hover {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+
+.form-group label {
+    font-weight: bold;
+    margin: 5px auto;
+}
+.col-md-7 {
+    padding: 0 20px; /* เพิ่มระยะห่างซ้ายและขวา */
+}
