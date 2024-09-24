@@ -63,17 +63,17 @@ body
     outline: none !important;
 }
 
-#about,#schedule,#speaker,#activity,#gallery,#faq,#register,#contact,#sponsors
+#about,#schedule,#speaker,#workshops,#gallery,#faq,#register,#contact,#sponsors
 {
     padding: 30px 0;
 }
 
-.about,.schedule,.speaker,.activity.gallery,.faq,#register,.contact,.sponsors
+.about,.schedule,.speaker,.workshops.gallery,.faq,.register,.contact,.sponsors
 {
     padding: 20px;
 }
 
-.title-schedule,.title-speaker,.title-register,.title-activity,.title-gallery,.title-faq,.title-contact
+.title-schedule,.title-speaker,.title-workshops,.title-gallery,.title-faq,.title-register,.title-contact,.title-sponsors
 {
     font-size: 40px;
     font-weight: 600;
@@ -81,7 +81,7 @@ body
     margin-bottom: 40px;
 }
 
-/*-------------------home---------------------*/
+/*---------------------Home----------------------------*/
 #home
 {
     background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(63, 63, 63));
@@ -131,7 +131,7 @@ body
     transform: translateY(55px);
 }
 
-#About .btn-primary
+#about .btn-primary
 {
     box-shadow: none;
     padding: 8px 25px;
@@ -154,7 +154,7 @@ body
     transform: translateY(55px);
 }
 
-/*---------------------speaker----------------------------*/
+/*---------------------Speaker Profiles----------------------------*/
 .title-speaker::before
 {
     content: '';
@@ -167,14 +167,68 @@ body
     transform: translateY(55px);
 }
 
-/*---------------------Register----------------------------*/
+/*---------------------Workshops and Activities----------------------------*/
+
+.title-workshops::before
+{
+    content: '';
+    background: rgb(0, 0, 0);
+    height: 5px;
+    width: 485px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(55px);
+}
+
+/*---------------------Gallery----------------------------*/
+
+.title-gallery::before
+{
+    content: '';
+    background: rgb(0, 0, 0);
+    height: 5px;
+    width: 140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(55px);
+}
+
+/*---------------------FAQ----------------------------*/
+
+.title-faq::before
+{
+    content: '';
+    background: rgb(0, 0, 0);
+    height: 5px;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(55px);
+}
+
+/*---------------------Registration----------------------------*/
 
 #register
 {
     background: rgb(238, 238, 238);
 }
 
-/*---------------------contact-us----------------------------*/
+.title-register::before
+{
+    content: '';
+    background: rgb(0, 0, 0);
+    height: 5px;
+    width: 160px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(55px);
+}
+
+/*---------------------Contact Us----------------------------*/
 #contact
 {
     background: rgb(238, 238, 238);
@@ -199,7 +253,7 @@ body
     margin-top: 8%;
 }
 
-/*---------------------Sponsors----------------------------*/
+/*---------------------Sponsors and Partners----------------------------*/
 
 .title-sponsors
 {
@@ -279,7 +333,8 @@ body
 }
 
 
-.join-btn {
+.join-btn 
+{
     margin-top: 10px;
     width: 100%;
     background-color: #2eb660; 
@@ -288,13 +343,13 @@ body
     font-size: 1rem;
 }
 
-.join-btn:hover {
-
-
+.join-btn:hover 
+{
     background-color: #46f084; 
 }
 
-.text-info {
+.text-info 
+{
     color: #25944e!important;
 }
 
