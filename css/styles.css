@@ -149,6 +149,12 @@ body
     margin-top: 20px;
 }
 
+.scheduleBox1 .description
+{
+    text-align: left;
+    white-space: pre-line;
+}
+
 .card {
     background-color: rgba(255, 255, 255, 0.1);
     border: none;
@@ -283,6 +289,12 @@ body
     background: rgb(238, 238, 238);
 }
 
+.regform-group label 
+{
+    font-weight: bold;
+    margin: 5px auto;
+}
+
 .title-register::before
 {
     content: '';
@@ -399,6 +411,72 @@ body
     }
 }
 
+.sponsor-card 
+{
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+    height: 100%;
+}
+
+.sponsor-badge
+{
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    white-space: nowrap; /* ป้องกันการตัดบรรทัด */
+    margin-top: 5px; /* เพิ่มระยะห่างจากส่วนบน */
+    margin-left: 5px;
+}
+
+.sponsor-info
+{
+    color: #757575!important;
+    text-decoration: none;
+}
+
+.sponsor-text
+{
+    text-align: left;
+}
+
+.sponsor-title
+{
+    text-align: left;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden; 
+}
+
+.sponsor-cooperate
+{
+    text-align: left;
+    font-size: 12px;
+}
+
+.sponsor-description
+{
+    text-align: left;
+    font-size: 14px;
+    white-space: pre-line;
+}
+
+@media (max-width: 576px) 
+{
+    .sponsor-card .d-flex
+    {
+      flex-direction: column; /* จัดแนวให้เป็นแนวตั้งในหน้าจอเล็ก */
+      align-items: flex-start; /* จัดชิดซ้าย */
+    }
+
+    .sponsor-badge 
+    {
+      margin-top: 10px; /* เพิ่มระยะห่างจากด้านบน */
+    }
+}
 
 .join-btn 
 {
@@ -415,7 +493,7 @@ body
     background-color: #46f084; 
 }
 
-.text-info 
+.text-info
 {
     color: #25944e!important;
 }
@@ -498,11 +576,31 @@ body
     color: #ffffff;
 }
 
-
 .form-group label {
     font-weight: bold;
     margin: 5px auto;
 }
+
+.form-group input, .form-group textarea {
+    width: 350px;
+}
+
 .col-md-7 {
     padding: 0 20px; /* เพิ่มระยะห่างซ้ายและขวา */
+}
+
+#travel {
+    background-color: #213a80;
+    color: white; 
+    padding: 30px 0;
+}
+.custom-map {
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+}
+.custom-map iframe {
+    width: 100%;
+    height: 500px;
 }
