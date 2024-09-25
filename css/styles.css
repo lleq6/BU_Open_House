@@ -123,7 +123,7 @@ body
     content: '';
     background: rgb(0, 0, 0);
     height: 5px;
-    width: 470px;
+    width: 500px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -175,7 +175,7 @@ body
     content: '';
     background: rgb(0, 0, 0);
     height: 5px;
-    width: 170px;
+    width: 340px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -183,12 +183,51 @@ body
 }
 
 /*---------------------Speaker Profiles----------------------------*/
+#speaker {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.title-speaker {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.speaker-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    transition: transform 0.2s;
+}
+
+.speaker-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.speaker-card h4 {
+    margin-top: 15px;
+    color: #000000;
+}
+
+.speaker-card p {
+    color: #555;
+}
+
+.speaker-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
 .title-speaker::before
 {
     content: '';
     background: rgb(0, 0, 0);
     height: 5px;
-    width: 150px;
+    width: 360px;
     display: block;
     margin-left: auto;
     margin-right: auto;
