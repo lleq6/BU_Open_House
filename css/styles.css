@@ -63,17 +63,17 @@ body
     outline: none !important;
 }
 
-#about,#schedule,#speaker,#workshops,#gallery,#faq,#register,#contact,#sponsors
+#about,#schedule,#speaker,#workshops,#gallery,#faq,#register,#contact,#sponsors,#travel
 {
     padding: 30px 0;
 }
 
-.about,.schedule,.speaker,.workshops.gallery,.faq,.register,.contact,.sponsors
+.about,.schedule,.speaker,.workshops.gallery,.faq,.register,.contact,.sponsors, .travel
 {
     padding: 20px;
 }
 
-.title,.title-schedule,.title-speaker,.title-workshops,.title-gallery,.title-faq,.title-register,.title-contact,.title-sponsors
+.title,.title-schedule,.title-speaker,.title-workshops,.title-gallery,.title-faq,.title-register,.title-contact,.title-sponsors, .title-travel
 {
     font-size: 40px;
     font-weight: 600;
@@ -353,6 +353,26 @@ body
     transform: translateY(55px);
 }
 
+/*--------------------- Travel ----------------------------*/
+
+.title-travel
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+
+.title-travel::before
+{
+    content: '';
+    background: rgb(0, 0, 0);
+    height: 5px;
+    width: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(55px);
+}
 
 .header 
 {
@@ -593,6 +613,7 @@ body
     color: white; 
     padding: 30px 0;
 }
+
 .custom-map {
     border: 1px solid #ffffff;
     border-radius: 10px;
